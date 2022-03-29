@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    /* background-image: url(img/bg-tablet-pattern.svg);
+    background-size:contain;
+    background-repeat: none; */
+}
+
+/* -- HEADER --  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vw;
+    padding: 30px 15px;
+    border: 1PX SOLID RED;
+    margin-bottom: 20px;
+    width: 100vw;
+}
+
+header img {
+    width: 40vw;
+}
+
+header .menu-hambur {
+    color: #232C50;
+    
+}
+
+header nav, header button {
+    display: none;
+}
+
+/* -- MAIN --  */
+
+/* SECTION1 */
+.section1-graficos {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 80px;
+}
+
+/* ARTICLE IMG */
+.section1-graficos .article-right-img {
+    margin-bottom: 25px;
+}
+
+.section1-graficos .article-right-img img {
+    width: 90vw;
+    border: 1px solid blue;
+    
+}
+
+/* ARTICLE PRESENTATION */
+.section1-graficos .article-left-presentation {
+    border: 1px solid green;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1-graficos .article-left-presentation #h1-bring {
+    font-size: 2.3rem;
+    text-align: center;
+    color: #232C50;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.section1-graficos .article-left-presentation p {
+    color: #B3B2B7;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* BOTONES */
+
+.button-getStarted {
+    border-radius: 50px;
+    height: 40px;
+    padding: 10px;
+    width: 130px;
+}
+
+.button-getStarted-naranja {
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* -- SECTION2 --  */
+
+.section2 {
+    border: 1px solid red;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* ARTICLE LEFT */
+
+.section2 .article-left-whatAbout {
+    border: 1px solid green;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.section2 .article-left-whatAbout h2 {
+    color: #232C50;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.section2 .article-left-whatAbout span {
+    color: #B3B2B7;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+/* ARTICLE RIGHT  */
+
+.section2 .article-right-description {
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .article-right-description .descripciones {
+    margin-bottom: 40px;
+    margin-left: 7px;
+}
+
+.section2 .article-right-description .descripciones .div-button-h4 {
+    display: flex;
+    background-color: rgba(250, 128, 114, 0.192);
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.section2 .article-right-description .descripciones .div-button-h4 .numbers-orange {
+    border-radius: 50px;
+    height: 35px;
+    padding: 10px;
+    width: 55px;
+    position: absolute;
+    left:0;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.section2 .article-right-description .descripciones .h4-titulo {
+    color: #232C50;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section2 .article-right-description .descripciones .p-descripcion {
+    color: #B3B2B7;    
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+
+
+/* -- SECTION3 -- */
+
+.section3-users {
+    border: 1px solid blue;
+    width: 100vw;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.section3-users h2 {
+    color: #232C50;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+/* ARTICLE ALI */
+
+.section3-users div .article-ali {
+    background-color: #fafafa9f;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-users div .article-ali img {
+    width: 65px;
+    position: absolute;
+    top:-35px;
+}
+
+.section3-users div .article-ali .user-name{
+    color: #232C50;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.section3-users div .article-ali p.user-comment {
+    color: #B3B2B7;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+}
+
+.section3-users div.div-puntitos i {     
+    font-size: 40px;
+    margin: 10px 0px 20px;
+    color: #F3603B ;
+}
+
+/* SECTION ANISHA RICHARD OCULTAS */
+.section3-users div .article-anisha , .section3-users div .article-richard {
+    display: none;
+}
+
+
+/* -- MEDIA QUERYS -- */
+
+@media (min-width:480px) {
+    header nav, header button {
+        display: block;
+    }
+}
