@@ -216,13 +216,12 @@ header nav, header button {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 100px;
-    
     text-align: center;
 }
 
 /* ARTICLE ALI */
 
-.section3-users div .article-ali {
+.section3-users div .article-users {
     background-color: #fafafa9f;
     /* border: 1px solid black; */
     position: relative;
@@ -231,19 +230,19 @@ header nav, header button {
     align-items: center;
 }
 
-.section3-users div .article-ali img {
+.section3-users div .article-users img {
     width: 65px;
     position: absolute;
     top:-35px;
 }
 
-.section3-users div .article-ali .user-name{
+.section3-users div .article-users .user-name{
     color: #232C50;
     margin-top: 50px;
     font-weight: 700;
 }
 
-.section3-users div .article-ali p.user-comment {
+.section3-users div .article-users p.user-comment {
     color: #B3B2B7;
     font-weight: 500;
     line-height: 25px;
@@ -483,10 +482,12 @@ header nav ul li a:hover{
     /* SECTION2 */
     .section2 {
         flex-direction: row;
-        padding: 0px  165px 90px;
+        padding: 0px  165px 15px;
         justify-content: space-between;
+        align-items: flex-start;
     }
 
+    /* ARTICLE LEFT */
     .section2 .article-left-whatAbout {
         align-items: flex-start;
         width: 400px;
@@ -506,10 +507,91 @@ header nav ul li a:hover{
 
 
 
+    /* ARTICLE RIGHT */
+    .section2 .article-right-description {
+        width: 420px;
+        position: relative;
+    }
+
+    .section2 .article-right-description .descripciones {
+        margin-left: 0px;
+    }
+
     .section2 .article-right-description .descripciones .div-button-h4 {
         justify-content: flex-start;
+        position: none;
+        background-color: white;
+        padding: 6px 0px;
     }
+
+     .section2 .article-right-description .descripciones .div-button-h4 .numbers-orange {
+    left: -70px;
+}
+
     .section2 .article-right-description .descripciones .h4-titulo {
         width: 250px;
+        text-align: start;
+        margin-left: 0px;
+    }
+
+    .section2 .article-right-description .descripciones .p-descripcion {
+        width: 400px;
+    }
+
+    /* SECTION3 */
+    .section3-users {
+        padding: 40px 20px 0px;
+        margin-bottom: 180px;
+    }
+
+    .section3-users h2 {
+        font-size: 39px;
+        text-align: center;
+    }
+
+    /* CONTENEDOR USERS */
+    .section3-users div {
+        display: flex;
+        flex-direction: row;
+        align-items: none;
+        margin-bottom: 30px;
+        padding: 0px 70px;
+    }
+    
+    /* ARTICLE USERS */
+    .section3-users div .article-users {
+        justify-content: center;
+        /* border: 0.5px solid red; */
+    }
+
+    .section3-users div article.anisha {
+        order: -1;
+    }
+
+    .section3-users div .article-users img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .section3-users div .article-anisha , .section3-users div .article-richard {
+        display: block;
+    }
+
+    /* ICONO  */
+    .section3-users div.div-puntitos i {
+        display: none;
+    }
+
+    /* SECTION4 */
+    .section4 {
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+
+    .section4 h2 {
+        width: 500px;
+        text-align: start;
     }
 }   
+
+
