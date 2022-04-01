@@ -7,11 +7,6 @@
 
 body {
     font-size: 16px;
-    /* background-image: url(img/bg-tablet-pattern.svg);
-    background-size:contain;
-    background-repeat: none; */
-    
-    
 }
 
 /* -- HEADER --  */
@@ -31,7 +26,6 @@ header .menu-hambur {
     color: #232C50;
     font-weight: 700;
     font-size: 2rem;
-    
 }
 
 header nav, header button {
@@ -81,6 +75,7 @@ header nav, header button {
     margin-bottom: 15px;
     width: 250px;
 }
+
 .section1-graficos .article-left-presentation p {
     color: #B3B2B7;
     /* font-weight: 500; */
@@ -88,7 +83,6 @@ header nav, header button {
     text-align: center;
     margin-bottom: 30px;
 }
-
 
 /* BOTONES */
 
@@ -110,8 +104,6 @@ header nav, header button {
 /* -- SECTION2 --  */
 
 .section2 {
-    /* border: 1px solid red; */
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,7 +113,6 @@ header nav, header button {
 /* ARTICLE LEFT */
 
 .section2 .article-left-whatAbout {
-    /* border: 1px solid green; */
     width: 85vw;
     display: flex;
     flex-direction: column;
@@ -142,13 +133,11 @@ header nav, header button {
     color: #B3B2B7;
     text-align: center;
     line-height: 30px;
-    
 }
 
 /* ARTICLE RIGHT  */
 
 .section2 .article-right-description {
-    /* border: 1px solid purple; */
     display: flex;
     flex-direction: column;
 }
@@ -166,8 +155,6 @@ header nav, header button {
     justify-content: center;
     position: relative;
     margin-bottom: 7px;
-    
-    
 }
 
 .section2 .article-right-description .descripciones .div-button-h4 .numbers-orange {
@@ -201,13 +188,10 @@ header nav, header button {
 /* -- SECTION3 -- */
 
 .section3-users {
-    /* border: 1px solid blue; */
-    
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .section3-users h2 {
@@ -222,7 +206,6 @@ header nav, header button {
 
 .section3-users div .article-users {
     background-color: #fafafa9f;
-    /* border: 1px solid black; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -249,6 +232,16 @@ header nav, header button {
     text-align: center;
 }
 
+/* ARTICLE ANISHA RICHARD */
+.section3-users div .article-users {
+    background-color: #fafafa9f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .section3-users div.div-puntitos i {     
     font-size: 40px;
     margin: 10px 0px 20px;
@@ -256,11 +249,13 @@ header nav, header button {
 }
 
 /* SECTION ANISHA RICHARD OCULTAS */
-.section3-users div .article-anisha , .section3-users div .article-richard {
+
+.section3-users div article.anisha-richard {
     display: none;
 }
 
-/* -- SECTION4 -- */
+
+    /* -- SECTION4 -- */
 
 .section4 {
     background-color: #f3603b;
@@ -269,7 +264,6 @@ header nav, header button {
     align-items: center;
     padding: 80px 0px;
     justify-content: center;
-    
 }
 
 .section4 h2 {
@@ -588,7 +582,6 @@ input[type="email"]:valid{
     /* ARTICLE USERS */
     .section3-users div .article-users {
         justify-content: center;
-        /* border: 0.5px solid red; */
     }
 
     .section3-users div article.anisha {
@@ -600,8 +593,8 @@ input[type="email"]:valid{
         height: 80px;
     }
     
-    .section3-users div .article-anisha , .section3-users div .article-richard {
-        display: block;
+    .section3-users div article.anisha-richard {
+        display: flex;
     }
 
     /* ICONO  */
